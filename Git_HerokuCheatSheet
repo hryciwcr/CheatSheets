@@ -37,12 +37,24 @@ push mastet branch of 'origin'
 BRANCHING
 ------------
 1. if on master branch, create and checkout new branch
->> git checkout -b examplebranch
+>> git checkout -b example_branch
 
 2. run 'git branch' to see that you are on the new branch
 >> git branch
 
-we are in a new branch
+3. modify your file and save it
+
+4. add the file to be commited 'git add'
+>> git add *
+
+5. commit the file
+>> git commit -m "Attempting to commit the example_branch"
+
+6. push the branch to the master
+>> git push origin example_branch
+
+7. someone can approve your branch and merge it
+
 
 
 
