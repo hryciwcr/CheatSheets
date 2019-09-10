@@ -66,6 +66,9 @@ BRANCHING
 11. Delete it with 
 >> git branch -d example_branch
 
+FUCKING UP A BUNCH OF STUFF AND THEN I AM GOING TO COMMIT AND PUSH THIS AND TRY AND HAVE THIS BRANCH MERGED EVEN THOUGH IT IS ABSOLUTE GARBAGE! MUAHAHAHAH!
+...
+but you are going to stop me... caue you are git master.
 
 Login to Heroku databade from command line
 -----------------------------------------
