@@ -66,6 +66,17 @@ BRANCHING
 11. Delete it with 
 >> git branch -d example_branch
 
+HOW TO PULL A FILE AND WORK FROM IT
+--------------------------------------
+1. use 'git clone https://github.com/hryciwcr/path/to/repo.git' to copy the repo to your 
+>> git clone https://github.com/hryciwcr/CheatSheets.git
+
+2. cd into your directory
+>> cd directory_name
+
+3. once you have cloned it, create a new branch to do your work in
+>> git checkout -b example_working_branch
+Note: if you do not do this, your changes will be commited to the master branch. This is bad
 
 Login to Heroku databade from command line
 -----------------------------------------
