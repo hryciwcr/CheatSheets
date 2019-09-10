@@ -1,0 +1,3 @@
+Login to Heroku databade from command line
+-----------------------------------------
+>>heroku pg:psql
