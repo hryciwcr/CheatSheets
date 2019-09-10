@@ -1,3 +1,53 @@
+
+Create a git Repository
+
+1. Navigate to the git repo you would like to turn into a git repository
+
+2. run 'git init'
+>> git init
+
+3. run 'git status' to see which files need to be commited
+>> git status
+
+4. run 'git add'
+>>
+options
+>> git add . # add whole directory
+>> git add * # add all files
+>> git add examplefile.py # add only the examplefile.py
+
+Note: if you want to remove a file that you committed
+>> git rm --cached examplefile.py # remove only examplefile.py
+>> git rm --cached * # remove all cached files
+
+5. run 'git commit' to commit the file
+>> git commit -m "Committing first revision of GitHubCheatsheet"
+
+6. Create a new repository in Github on www.github.com.
+Repository created is called:
+hryciwcr/CheatSheets
+
+7. Push the repository that you created from the command line
+Add 'origin' to the specified url
+>> git remote add origin https://github.com/hryciwcr/CheatSheets.git
+push mastet branch of 'origin'
+>> git push -u origin master
+
+
+BRANCHING
+------------
+1. if on master branch, create and checkout new branch
+>> git checkout -b examplebranch
+
+2. run 'git branch' to see that you are on the new branch
+>> git branch
+
+
+
+
+
+
+
 Login to Heroku databade from command line
 -----------------------------------------
 >>heroku pg:psql
