@@ -37,7 +37,7 @@ push mastet branch of 'origin'
 BRANCHING
 ------------
 1. if on master branch, create and checkout new branch
->> git checkout -b examplebranch
+>> git checkout -b example_branch
 
 2. run 'git branch' to see that you are on the new branch
 >> git branch
