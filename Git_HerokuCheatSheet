@@ -42,10 +42,29 @@ BRANCHING
 2. run 'git branch' to see that you are on the new branch
 >> git branch
 
+3. modify your file and save it
 
+4. add the file to be commited 'git add'
+>> git add *
 
+5. commit the file
+>> git commit -m "Attempting to commit the example_branch"
 
+6. push the branch to the master
+>> git push origin example_branch
 
+7. someone can approve your branch and merge it
+
+8. once your branch is merged, the user who merged it should delete it in github
+
+9. After it is deleted, switch off of it in your command line
+>> git checkout master
+
+10. confirm you are off it with 'git branch'
+>> git branch
+
+11. Delete it with 
+>> git branch -d example_branch
 
 
 Login to Heroku databade from command line
